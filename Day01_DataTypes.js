@@ -13,7 +13,7 @@ console.log(typeof(name));//"string"
 
 /*
 Number literal:
-we only have number data type. No int, double, byte
+we only have number data type. No int, double, byte, short
 */
 
 var myNum=20;
@@ -36,7 +36,7 @@ console.log(typeof(num1));//"string"
 
 
 var num2 ="a"+20;
-console.log(num1);//"20a"
+console.log(num1);//"a20"
 
 console.log(typeof(num1));//"string"
 
