@@ -39,7 +39,7 @@ console.log(loveScore);//0-99.9999999
 
 //Step3: get numbers from 1-100 as whole numbers
 loveScore=Math.ceil(loveScore)
-console.log(`${name1} and ${name2} has a love score of ${loveScore} %`)
+console.log(`${name1} and ${name2} have a love score of ${loveScore} %`)
 
 //Step4: complete the if statements
 if (loveScore>=80){
