@@ -46,3 +46,4 @@ console.log(str1.slice(5,1));//""
 console.log(str1.substring(3));//"ove javascript"
 console.log(str1.substring(-3));//"I love javascript"
 console.log(str1.substring(5,1));//" lov"
+
