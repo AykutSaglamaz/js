@@ -9,7 +9,7 @@ console.log(typeof(name));//"string"
 
 var myName ="java"
 
-console.log(typeof(name));//"string"
+console.log(typeof(myName));//"string"
 
 /*
 Number literal:

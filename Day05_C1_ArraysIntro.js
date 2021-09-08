@@ -1,11 +1,11 @@
 /*
 ARRAYS:
 Arrays are special type of objects
-We use index to get teh values in array
+We use index to get the values in array
 We use [] to create arrays
 */
 console.clear();
-//Waw 1 Declaring Array:
+//Way 1: Declaring Array:
 //                 0,    1,    2,     3.    4.    5.    6.    7='rahul'
 var friendList = ['sam','tom','tim','john','bob']
 console.log(friendList)
@@ -13,7 +13,7 @@ console.log(typeof(friendList));//"object"
 //Way 2 Declaring Array:
 var myFriendList = new Array('sam','tom','tim','john','bob')
 console.log(myFriendList)
-//getting teh values from the array
+//getting the values from the array
 console.log(friendList[3]);//"john"
 
 //when index is out of bound

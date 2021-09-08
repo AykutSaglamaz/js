@@ -1,7 +1,7 @@
 /*
 ARRAYS:
 Arrays are special type of objects
-We use index to get teh values in array
+We use index to get the values in array
 We use [] to create arrays
 */
 console.clear();

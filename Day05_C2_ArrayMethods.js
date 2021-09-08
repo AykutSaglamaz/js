@@ -1,11 +1,11 @@
 /*
 ARRAYS:
 Arrays are special type of objects
-We use index to get teh values in array
+We use index to get the values in array
 We use [] to create arrays
 */
 console.clear();
-//Waw 1 Declaring Array:
+//Way 1: Declaring Array:
 var friendList = ['sam','tom','tim','john','bob']
 console.log(friendList)
 //1. push()    : add element at the end on the array

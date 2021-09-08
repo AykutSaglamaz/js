@@ -1,7 +1,7 @@
 /*
 ARRAYS:
 Arrays are special type of objects
-We use index to get teh values in array
+We use index to get the values in array
 We use [] to create arrays
 */
 console.clear();
@@ -26,6 +26,6 @@ fruits.splice(-1,1);
 console.log(fruits);//["apple", "kiwi", "cherry", "strawberry", "appricot", false]
 // NOTE - number means starting from the last index
 fruits.splice(-1,0,'tea','coffee');//Delete 0 item. insert tea,coffee at -1 index
-console.log(fruits);//["apple", "kiwi", "cherry", "strawberry", "appricot", false, "tea", "coffee", 10]
+console.log(fruits);//["apple", "kiwi", "cherry", "strawberry", "appricot", false, "tea", "coffee"]
 fruits.splice(-1,0,'water')
 console.log(fruits);//["apple", "kiwi", "cherry", "strawberry", "appricot", "tea", "coffee", "water", false]

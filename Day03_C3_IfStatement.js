@@ -12,46 +12,55 @@ if(x==y){//true
 }else{
   console.log('x and y NOT equal')
 }
+
 if(x===y){//false
   console.log('x and y equal')
 }else{
   console.log('x and y NOT equal');
 }
+
 if(x>=y && z>=y){//true
   console.log('true');
 }else{
   console.log('false');
 }
+
 if(0){//false
    console.log('true');
 }else{
    console.log('false');
 }
+
 if(10){//true
    console.log('true');
 }else{
    console.log('false');
 }
+
 if(NaN){//false
    console.log('true');
 }else{
    console.log('false');
 }
+
 if(null){//false
    console.log('true');
 }else{
    console.log('false');
 }
+
 if(""){//false
    console.log('true');
 }else{
    console.log('false');
 }
+
 if(undefined){//false
    console.log('true');
 }else{
    console.log('false');
 }
+
 if("javascript"){//true
    console.log('true');
 }else{
@@ -95,7 +104,7 @@ if(" "){//true
   }
  /*
  IMPORTANT NOTE:
-0, FALSE, null, undefined, "" , NaN(Not A Number)  considered as FALSE.
+   0, FALSE, null, undefined, "" , NaN(Not A Number) considered as FALSE.
 All other values are TRUE
  */ 
 if(0){//false

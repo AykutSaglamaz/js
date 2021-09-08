@@ -1,9 +1,9 @@
 /* 
 Rounding Numbers
 ​
-Math.ceil(number)                     —>Rounds Up
-Math.floor(number)                   —>Rounds Down
-Math.round(number)                 —>Rounds to closest whole number
+Math.ceil(number)         —>Rounds Up
+Math.floor(number)        —>Rounds Down
+Math.round(number)        —>Rounds to closest whole number
 10.4->10.   10.6 -> 11
 ​
 ​

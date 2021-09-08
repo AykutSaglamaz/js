@@ -8,7 +8,7 @@ console.clear();
 ask: 
 Create a prompt : “Write your tweet” —-> use prompt
 Type ran
-summ text and calculate the number of sent text and the remaining of sent text
+sum text and calculate the number of sent text and the remaining of sent text
 Note Max character is 280.
 */
 ​

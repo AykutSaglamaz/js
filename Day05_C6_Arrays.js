@@ -1,11 +1,11 @@
 /*
 ARRAYS:
 Arrays are special type of objects
-We use index to get teh values in array
+We use index to get the values in array
 We use [] to create arrays
 */
 console.clear();
-//Normal way to reacy data from array
+//Normal way to create data from array
 const x = [1, 2, 3, 4, 5];
 console.log(x[0]);//1
 console.log(x[1]);//2

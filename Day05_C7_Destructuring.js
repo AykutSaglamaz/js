@@ -1,11 +1,11 @@
 /*
 DESTRUCTURING :
-1. Object destructing
-2. function detrtucturing
+1. Object destructuring
+2. function destructuring
 3. Array destructuring
 */
 console.clear();
-//1. object destructing
+//1. object destructuring
 var user = {
   myfName : 'Sam',
   mylocation : 'Dallas',
@@ -21,6 +21,7 @@ var email1=user.myemail
 console.log(name1);//"Sam"
 console.log(location1);//"Dallas"
 console.log(email1);//"sam@fakeemail.com"
+
 //Destructuring the user objects
 //benefit is we can access the data direclty withour . or [] notation
 // NOTE: key names must match to the original object
@@ -36,7 +37,7 @@ console.log(mylocation);//"Dallas"
 console.log(myemail);//"sam@fakeemail.com"
 
 
-//2. function destructing
+//2. function destructuring
 function getUser(){
   return {
     name2:'Sam',
@@ -55,7 +56,7 @@ console.log(email2);//"sam@gmail.com"
 //3. Array destructuring
 var user1 = ['tim','LA','tim@yahoo.com']
 
-//without destructing
+//without destructuring
 var userName=user1[0]
 var locationTim=user1[1]
 var emailTim=user1[2]
@@ -63,7 +64,7 @@ console.log(userName);//"tim"
 console.log(locationTim);//"LA"
 console.log(emailTim);//"tim@yahoo.com"
 
-//with destructing
+//with destructuring
 var [userName,userLocation,userEmail] = user1;
 console.log(userName);//"tim"
 console.log(userLocation);//"LA"

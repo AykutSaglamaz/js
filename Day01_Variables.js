@@ -1,5 +1,5 @@
 var myName;
-console.log(myName);//By Default, cariables are undefined
+console.log(myName);//By Default, variables are undefined
 ​
 // var variables can be used multiple times
 var myName='Javascript';

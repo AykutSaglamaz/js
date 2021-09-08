@@ -12,6 +12,7 @@ var sum1 = function (a){
   return a+100;
 }
 console.log(sum1(10));//110
+
 //ARROW FUNCTION => case1: one argument
 //1.  remove function keyword(function) and function name(sum)
 //2. use => BETWEEN THE PARAMETER BODY

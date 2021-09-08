@@ -9,7 +9,7 @@ console.log(num)
 //Step 2: multiple by 10
 num*=10;
 console.log(num);
-//Step 3: Math.floor to roung the number to the nearest small whole number
+//Step 3: Math.floor to round the number to the nearest small whole number
 num=Math.floor(num);
 console.log(num);
 
