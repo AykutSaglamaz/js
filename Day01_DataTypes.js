@@ -73,8 +73,9 @@ var selectedCar;
 console.log(selectedCar);//undefined
 console.log(typeof(selectedCar));//"undefined"
 
-
-
 var selectedCar= undefined;
 console.log(selectedCar);//undefined
 console.log(typeof(selectedCar));//"undefined"
+
+abc = 10;//undeclared
+console.log(abc);
